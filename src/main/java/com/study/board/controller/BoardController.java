@@ -30,7 +30,7 @@ public class BoardController {
 
         boardService.write(board);
 
-        return "boardWritePro";
+        return "redirect:/board/list";
 
     }
     @GetMapping("/board/list")
